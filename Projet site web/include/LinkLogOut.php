@@ -1,0 +1,1 @@
+<li><a href="include/Logout.php" class="hover">Log out</a></li>
