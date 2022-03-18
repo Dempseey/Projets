@@ -1,0 +1,68 @@
+.center
+{
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    background: #159682;
+    border-radius: 10px;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+p
+{
+	font-size: 25px;
+	color: #FFF;
+	float: inherit;
+}
+
+h4
+{
+	font-size: 25px;
+	color: red;
+}
+
+label
+{
+	font-size: 20px;
+	color: #FFF;
+}
+
+.buttonDiv {
+    clear: both;
+}
+
+table
+{
+	text-align: center;
+	color: #DF2121;
+	font-size: 40px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	border: 5px solid #000;
+}
+
+.versus
+{
+	color: #FFF;
+	font-size: 20px;
+}
+
+button
+{
+    font-size: 25px;
+    background: #FFF;
+    color: #DF2121;
+    border-radius: 10px;
+    border-color: #FFF;
+    border-width: 3px;
+    text-transform: uppercase;
+}
+
+button:hover
+{
+    background: #DF2121;
+    color: #000;
+    border-color: #000;
+}

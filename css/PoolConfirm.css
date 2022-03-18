@@ -1,0 +1,83 @@
+.center
+{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    background: #159682;
+    border-radius: 10px;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+h1
+{
+    font-family:'Crete Round',serif;
+    font-size: 45px;
+    color: #FFF;
+}
+
+#color
+{
+    font-size: 25px;
+    color: #FFF;
+}
+
+table {
+    float:left;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+}
+
+.namePoule
+{
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    color:#FFF;
+	height: 55px;
+}
+
+.draggable {
+    background-color: #FFF;
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    border-style: groove;
+    border-color: black;
+}
+
+.getBackTeam {
+    height: fit-content;
+    min-height: 30px;
+    width: 99.5%;
+    margin-bottom: 30px;
+    border-style: groove;
+    border-color: black;
+    background-color: #DF2121;
+
+}
+
+.buttonDiv {
+    clear: both;
+}
+
+
+button
+{
+    font-size: 17px;
+    background: #FFF;
+    color: #000;
+    border-radius: 7px;
+    border-color: #000;
+    border-width: 1px;
+    text-transform: uppercase;
+}
+
+button:hover
+{
+    background: #DF2121;
+    color: #000;
+    border-color: #000;
+}
