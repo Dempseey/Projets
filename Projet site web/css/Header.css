@@ -1,0 +1,118 @@
+#header
+{
+    width: 100%;
+    height: 140px;
+    margin: 0 auto;
+
+}
+
+.left
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.right
+{
+    float: right;
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.yellow
+{
+    color:#DF2121;
+    text-shadow: 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF;
+
+}
+
+header
+{
+    background-image:url(img/header.jpg);
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+header h1
+{
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 32px;
+    font-family:'Crete Round',serif;
+    font-size: 45px;
+    color: #FFF;
+    text-shadow: 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121;   
+}
+
+header h1:hover
+{
+    
+}
+
+.hover
+{
+    border-radius: 16px;
+}
+
+.hover:hover
+{
+    color: #DF2121;
+    text-shadow: 0 0 4px #000;
+}
+
+#ProfileLogin
+{
+    display: inline-block;
+    float: left;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.Profil
+{
+    border-radius: 16px;
+    font-family:'Helvetica,Arial',serif;
+    font-size: 45px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.Profil:hover
+{
+    color: #DF2121;
+    text-shadow: 0 0 4px #000;
+    
+}
+
+header nav
+{
+    float: right;
+    margin-top:35px;
+    margin-right: 20px;
+}
+
+header nav ul
+{
+    font-family:'Crete Round',serif;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+header nav ul li
+{
+    display:inline-block;
+}
+
+header nav ul li a
+{
+    margin-right: 20px;
+    text-decoration: none;
+    font-family:'Crete Round',serif;
+    font-size: 45px;
+    color: #FFF;
+}

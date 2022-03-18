@@ -1,0 +1,73 @@
+.center
+{
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    background-image:url(img/header.jpg);
+    border-radius: 10px;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+h1
+{
+    font-family:'Crete Round',serif;
+    font-size: 45px;
+    color: #FFF;
+    text-shadow: 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121, 0 0 2px #DF2121; 
+}
+
+#color
+{
+    font-size: 25px;
+    color: #FFF;
+}
+
+table {
+    float:left;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+}
+
+.namePoule
+{
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+}
+
+.draggable {
+    background-color: #3BA7DE;
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    border-style: groove;
+    border-color: black;
+}
+
+.getBackTeam {
+    height: fit-content;
+    min-height: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-style: groove;
+    border-color: black;
+    background-color: #DF2121;
+
+}
+
+.buttonDiv {
+    clear: both;
+}
+
+#sub_pool
+{
+    font-size: 20px;
+}
+
+#nbPls
+{
+    font-size: 20px;
+}
