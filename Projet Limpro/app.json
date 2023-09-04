@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Limpro",
+    "slug": "snack-45cf24ac-ad4f-429b-96a3-e772f4f94f43",
+    "version": "1.0.0",
+    "description": "Application de battle d'improvisation",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Limpro.ydays2k23",
+      "buildNumber": "1.0",
+    },
+    "android": {
+      "package": "com.Limpro.ydays2k23",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "RECORD_AUDIO",
+        "MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2118863-11eb-459c-98f9-46ee483e2268"
+      }
+    }
+  }
+}
